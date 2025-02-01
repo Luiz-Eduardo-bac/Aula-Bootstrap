@@ -56,12 +56,18 @@ img{
 #copy{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .text{
     display: flex;
     align-items: center;
     height: 4vh;
+    justify-content: center;
+}
+
+.text p{
+    margin: 0;
 }
 
 
