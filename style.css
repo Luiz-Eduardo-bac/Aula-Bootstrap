@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    font-family: "Noto Sans", serif;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media (min-width:260px) and (max-width:700px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        background-color: rgb(216, 215, 215);
+        align-items: center;
+        justify-content: center;
+    }
+    #container{
+        width: 80vw;
+        height: 50vh;
+        background-color: white;
+        border-radius: 5px;
+    }
+    h1{
+        text-align: center;
+        margin-top: 3vh;
+    }
+    #button1{
+        width: 20vw;
+        height:5vh;
+        background-color: rgb(205, 205, 211);
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 5px;
+
+    }
+    #button1 a{
+        color: black;
+    }
+    #buttons{
+        display: flex;
+        justify-content: center;
+        gap: 6vw;
+        margin-top: 2vh;
+    }
+
+    #inputUsername{
+        flex-direction: column;
+        margin-top: 4vh;
+        display: flex;
+        width: 55vw;
+        margin-left: 13vw;
+    }
+
+    #inputPassword{
+        width: 55vw;
+        margin-left: 13vw;
+        margin-top: 2vh;
+    }
+
+
+    #inputPassword label{
+        display: block;
+    }
+
+    #forgot{
+        font-size: 12px;
+        margin-left: 1vw;
+        color: gray;
+        text-decoration: underline;
+    }
+
+    input{
+        width: 54vw;
+        height: 4vh;
+    }
+
+    #botao{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3vh;
+    }
+
+    button{
+        width: 24vw;
+        height: 5vh;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: black;
+    }
+
+    #notAMember{
+        color: gray;
+        font-size: 12px;
+    }
+
+    #notAMember a{
+        color: gray;
+    }
+
+
+}
